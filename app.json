@@ -7,6 +7,11 @@
       "Principal": {
         "Service": "logs.amazonaws.com"
       }
+      ,
+      "Action": ["s3:GetBucketAcl",
+                 "s3:PutObject",
+                 "s3:GetObject"
+                ],
     }
            
   ]
