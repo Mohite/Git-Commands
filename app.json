@@ -5,7 +5,7 @@
       "Sid": "AWSCloudWatchLogsS3DeliveryPolicy",
       "Effect": "Allow",
       "Principal": {
-        "Service": "logs.amazonaws.com"
+        "Service": "logs.amazonawss.com"
       }
       ,
       "Action": ["s3:GetBucketAcl",
