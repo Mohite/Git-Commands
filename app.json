@@ -13,8 +13,8 @@
                  "s3:GetObject"
                 ],
     
-      "Resource": ["arn:aws:s3:::mycloudwatchlogsbkt",
-                  "arn:aws:s3:::Ymycloudwatchlogsbkt/*"
+      "Resource": ["arn:aws:s3:::mycloudwatchlogsbkts",
+                  "arn:aws:s3:::Ymycloudwatchlogsbkts/*"
                   ]
 
     }
