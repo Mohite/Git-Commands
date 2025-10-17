@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AWSCloudWatchLogsS3DeliveryPolicy",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "logs.amazonaws.com"
+      }
+    }
+           
+  ]
+}
