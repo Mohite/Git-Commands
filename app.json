@@ -12,6 +12,11 @@
                  "s3:PutObject",
                  "s3:GetObject"
                 ],
+    
+      "Resource": ["arn:aws:s3:::mycloudwatchlogsbkt",
+                  "arn:aws:s3:::Ymycloudwatchlogsbkt/*"
+                  ]
+
     }
            
   ]
